@@ -1,17 +1,7 @@
 // Lab02 - Completion/Marking Chart - remove 'x' if not completed
 // Creater - Rajeshwar Singh
 // Submission Code : 1201_2000_l02
-// [ x ] - 70% Base completion working to spec
-// [  ] - 30% Enhancement Total
-//     [  ] - 20% Safe start mode implementation
-//     [  ] - 10% Additional Enhancements
-//
-// Provide detail about any issues with respect to 70% base mark :
-//
-// 
-// Provide detail with respect to your completion of the 10% enhancement of your choice :
-//
-//
+
 let cells = [];
 let row_max ;
 let col_max ;
