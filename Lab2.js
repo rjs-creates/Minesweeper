@@ -1,4 +1,3 @@
-// Lab02 - Completion/Marking Chart - remove 'x' if not completed
 // Creater - Rajeshwar Singh
 // Submission Code : 1201_2000_l02
 
