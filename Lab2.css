@@ -1,0 +1,58 @@
+#grid1
+{
+    display: grid;
+    grid-template-columns: 18vw 60vw 18vw;
+    grid-template-rows: 20vh 5vh 95vh 10vh 10vh;
+    grid-template-areas: 'head head head'
+                         '. start .'
+                         '. main .'
+                         '. result .'
+                         'foot foot foot';
+    background-color: darkgray;
+    gap: 10px;
+    color: white;
+    text-align: center;
+}
+#gameStart
+{
+    grid-area: start;
+}
+#Head
+{
+    grid-area: head;
+    font-weight: bold;
+    text-shadow:2px 2px 2px black;
+}
+
+#game
+{
+    grid-area: main;
+}
+
+.cell 
+{
+    border: 1px solid gray;
+    min-width: 20px;
+    min-height: 20px;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+#images
+{
+    height: 30px;
+    width: 30px;
+}
+
+#result
+{
+    text-align: center;
+    color:  red;
+    font-size: xx-large;
+    grid-area: result;
+}
+
+footer
+{
+    grid-area: foot;   
+}
